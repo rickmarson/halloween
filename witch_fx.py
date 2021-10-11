@@ -37,6 +37,8 @@ try:
             sound.play()
 
             startTime = timeNow
+            
+        time.sleep(0.25)
 
 except KeyboardInterrupt:
     pass
